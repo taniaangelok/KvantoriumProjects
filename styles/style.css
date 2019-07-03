@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	position: relative;
+	background: #FFFFFF;
+	height: 30px;
+}
+.logo{
+	float: left;
+	margin: 30px;
+	margin-bottom: 10px;
+}
+.logo img{
+	width: 40px;
+	height: 40px;
+}
+
+.search{
+	float: right;
+	margin: 40px;
+	margin-bottom: 10px;
+}
+.search img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.search img:hover{
+	cursor: pointer;
+	background: rgb(211, 211, 211);
+}
+
+.nav{
+	text-align: center;
+	position: relative;
+	background: rgb(34, 33, 33);
+	font-family: 'Roboto Slab', serif;
+	width: 100%;
+	display: flex;
+}
+.nav a{
+	margin:  0 100px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+}
+.nav a:hover{
+	background: rgb(49, 48, 48);
+	cursor: pointer;
+}
+
+.kvantum{
+	height: 700px;
+	padding: 30px;
+}
+.kvantum h1{
+	font-family: 'Roboto Slab', serif;
+	color: rgb(37, 37, 37);
+	font-size: 30px;
+}
+
+#Bio{background: rgb(227, 252, 233);}
+#It{background: rgb(226, 253, 255);}
+#Robo{background: rgb(233, 233, 233);}
+#Energy{background: rgb(252, 255, 239);}
+#Design{background: rgb(255, 229, 237);}
+#Hitech{background: rgb(253, 225, 225);}
+
+.proj .rating{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: rgb(20, 20, 20);
+}
+.proj .rating div img{
+	height: 15px;
+	width: 15px;
+}
+
+footer{
+	height: 100px;
+	background: rgb(34, 33, 33);
+}
