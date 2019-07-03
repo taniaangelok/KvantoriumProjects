@@ -1,0 +1,12 @@
+.a{
+    width: 27%;
+    height: 100px;
+    background-color: aquamarine;
+    margin:10px;
+}
+.f{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
