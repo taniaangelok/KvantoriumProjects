@@ -43,7 +43,7 @@
 	display: flex;
 }
 .nav a{
-	margin:  0 100px;
+	margin:  0 1%;
 	width: 100%;
 	box-sizing: border-box;
 	padding: 10px 30px;
@@ -72,12 +72,26 @@
 #Design{background: rgb(255, 229, 237);}
 #Hitech{background: rgb(253, 225, 225);}
 
-.proj .rating{
+.proj{
+	text-align: center;
+	background: white;
+	width: 18%;
+}
+.rating{
+	margin-top: 10px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 15px;
 	color: rgb(20, 20, 20);
+	display: inline-flex;
 }
-.proj .rating div img{
+
+.likes{
+	margin-right: 5px;
+}
+.dislikes{
+	margin-left: 5px;
+}
+.rating div img{
 	height: 15px;
 	width: 15px;
 }
