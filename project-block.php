@@ -1,0 +1,21 @@
+<?php for ($i=0;$i<5;$i++){?>
+    <div class="proj">
+			<div class="rating">
+				<div class="likes">
+					<span>20 L</span>
+					<img src="res/images/arrow.png">
+				</div>
+
+				<div class="dislikes">
+					<span>10 DL</span>
+					<img src="res/images/arrowD.png">
+				</div>
+			</div>
+			<div>
+				<img src="res/images/placeholder.png" class="project-thumbnail">
+			</div>
+			<div>
+				<h1 class="project-name">Lorem Ipsum Dolor</h1>
+			</div>
+		</div>
+<?php }?>
