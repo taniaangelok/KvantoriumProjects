@@ -1,12 +1,75 @@
+<!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" href="Untitled-1.css"></head>
-<h1> самые интересные проекты</h1>
-<div class ="f">
-<?php for ($i=0;$i<10;$i++){?>
+<head>
+	<title>Главная</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="Untitled-1.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Ubuntu:700&display=swap&subset=cyrillic" rel="stylesheet">  
+	<meta charset="utf-8">
+</head>
 
-<div class="a"> 
-acv
-</div>
+<body>
+	<header>
+		<div class="header">
+			<div class="logo">
+				<img src="res/images/Logo.png">
+			</div>
 
-<?php }?>
-</div>
+			<div class="search">
+					<img src="res/images/magnif.png" href=#>
+					<img src="res/images/sign.png" href=#>
+			</div>
+		</div>
+
+		<div class="nav">
+			<a href="#">БИО</a>
+			<a href="#">IT</a>
+			<a href="#">РОБО</a>
+			<a href="#">ЭНЕРДЖИ</a>
+			<a href="#">ПРОМДИЗАЙН</a>
+			<a href="#">ХАЙКТЕК</a>
+		</div>
+	</header>
+	<div class="main">
+		<div class="kvantum" id="Bio">
+			<h1>Самые популярные Био</h1>
+			<div class="proj">
+				<div class="rating">
+					<div class="likes">
+						<span>20 L</span>
+						<img src="res/images/arrow.png">
+					</div>
+
+					<div class="dislikes">
+						<span>10 DL</span>
+						<img src="res/images/arrowD.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kvantum" id="It">
+            <h1>Самые популярные Айти</h1>
+            <?php for ($i=0;$i<10;$i++){?>
+                <div class="a"> 
+                acv
+                </div>
+            <?php }?>
+		</div>
+		<div class="kvantum" id="Robo">
+			<h1>Самые популярные Робо</h1>
+		</div>
+		<div class="kvantum" id="Energy">
+			<h1>Самые популярные Энерджи</h1>	
+		</div>
+		<div class="kvantum" id="Design">
+			<h1>Самые популярные Промдизайн</h1>
+		</div>
+		<div class="kvantum" id="Hitech">
+			<h1>Самые популярные Хай-тек</h1>
+		</div>
+	</div>
+	<footer>
+
+	</footer>
+</body>
+</html>
