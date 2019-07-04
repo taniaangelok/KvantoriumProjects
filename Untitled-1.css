@@ -1,12 +1,203 @@
-.a{
-    width: 27%;
-    height: 100px;
-    background-color: aquamarine;
-    margin:10px;
+*{
+	margin:0;
+	padding:0;
 }
+.header{
+	position: relative;
+	background: #FFFFFF;
+	height: 30px;
+}
+.logo{
+	float: left;
+	margin: 30px;
+	margin-bottom: 10px;
+}
+.logo img{
+	width: 40px;
+	height: 40px;
+}
+
+.search{
+	float: right;
+	margin: 40px;
+	margin-bottom: 10px;
+}
+.search img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+.search img:hover{
+	cursor: pointer;
+	background: rgb(211, 211, 211);
+}
+
+.nav{
+	text-align: center;
+	position: relative;
+	background: rgb(34, 33, 33);
+	font-family: 'Roboto Slab', serif;
+	width: 100%;
+	display: flex;
+}
+.nav a{
+	margin:  0 1%;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+}
+.nav a:hover{
+	background: rgb(49, 48, 48);
+	cursor: pointer;
+}
+
+.kvantum{
+	height: auto;
+	padding: 30px;
+}
+.kvantum-name{
+	font-family: 'Roboto Slab', serif;
+	color: rgb(37, 37, 37);
+	font-size: 30px;
+}
+
+.featured{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+
+#Bio{background: rgb(227, 252, 233);}
+#It{background: rgb(226, 253, 255);}
+#Robo{background: rgb(233, 233, 233);}
+#Energy{background: rgb(252, 255, 239);}
+#Design{background: rgb(255, 229, 237);}
+#Hitech{background: rgb(253, 225, 225);}
+
+.proj{
+	text-align: center;
+	background: white;
+	width: 18%;
+	border-radius: 10px;
+	margin: 40px 50px;
+	border: 1px solid grey;
+} 
+.proj:hover{
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+}
+.rating{
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: rgb(20, 20, 20);
+	display: inline-flex;
+}
+
+.likes{
+	margin-right: 5px;
+}
+.dislikes{
+	margin-left: 5px;
+}
+.rating div img{
+	height: 15px;
+	width: 15px;
+}
+.project-thumbnail{
+	width: 80%;
+	height: auto;
+	margin: 15px 0;
+}
+.project-name{
+	font-size: 30px;
+	padding: 10px 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+	height: 100px;
+	padding: 25px;
+	background: rgb(34, 33, 33);
+}
+
+.phone{
+	height: 30px;
+	width: 100%;
+	display: inline-flex;
+	float: left;
+	margin-bottom: 10px;
+}
+.phone-logo{
+	height: 30px;
+	width: 30px;
+}
+.phone-number{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+
+.mail{
+	height:30px;
+	width: 100%;
+	display: inline-flex;
+	float: left;
+	margin-bottom: 10px;
+}
+.mail-logo{
+	height: 30px;
+	width: 35px;
+}
+.email{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+второй
 .f{
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
     
+}
+.proj .rating{
+	 font-family: 'Ubuntu', sans-serif; 
+	 font-size: 15px; 
+	 color: rgb(20, 20, 20); 
+}
+.fon{
+    float: left;
+	width: 10px;
+	margin-bottom: 10px;
+}
+.proj .rating div img{
+	 height: 15px; 
+	 width: 15px; 
+}
+.likes{
+	 margin-right: 5px; 
+}
+.dislikes{
+	margin-left: 5px;
+}
+.rating div img{
+	height: 15px; 
+	width: 15px; 
+}
+.project-thumbnail{
+	height: 25%;
+	width: auto;
+	margin: 15px 0;
 }
