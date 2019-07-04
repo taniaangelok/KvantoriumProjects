@@ -28,6 +28,7 @@
 	margin-left: 20px;
 	border-radius: 10px;
 	padding: 5px;
+	
 }
 .search img:hover{
 	cursor: pointer;
@@ -59,10 +60,14 @@
 	height: 700px;
 	padding: 30px;
 }
-.kvantum h1{
+.kvantum-name{
 	font-family: 'Roboto Slab', serif;
 	color: rgb(37, 37, 37);
 	font-size: 30px;
+}
+
+.featured{
+	display: flex;
 }
 
 #Bio{background: rgb(227, 252, 233);}
@@ -76,6 +81,7 @@
 	text-align: center;
 	background: white;
 	width: 18%;
+	border-radius: 10px;
 }
 .rating{
 	margin-top: 10px;
@@ -94,6 +100,16 @@
 .rating div img{
 	height: 15px;
 	width: 15px;
+}
+.project-thumbnail{
+	height: 25%;
+	width: auto;
+	margin: 15px 0;
+}
+.project-name{
+	font-size: 30px;
+	padding: 10px 0;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 footer{
